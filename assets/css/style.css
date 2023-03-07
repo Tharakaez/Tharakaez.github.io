@@ -37,8 +37,13 @@ a{
 
 }
 
+.nav-link {
+  color:var(--c-light) !important;
+}
+
 .nav-link :hover{
   color: #124ac4 !important;
+  text-decoration: underline !important;
 }
 
 
