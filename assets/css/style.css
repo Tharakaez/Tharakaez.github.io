@@ -1,0 +1,91 @@
+/*.............................
+Color and font setup
+...............................*/
+
+:root{
+  --font-pri:'Source Sans Pro', sans-serif;
+  --font-title:'Oswald', sans-serif;
+  --c-light:#f5f1f1;
+  --c-dark: #222020;
+  --c-grey: #a5a5a5;
+  --c-bgg:   linear-gradient(#161515, #090808);
+  --c-bg:   #161515;
+}
+
+/*.............................
+Navbar section
+...............................*/
+body{
+  background:var(--c-bgg) ;
+  font-family: var(--font-pri) !important;
+}
+
+.navbar{
+  background: var(--c-bg);
+  box-shadow: 25px 25px 35px rgba(0,0,0,0.25), -25px -25px 35px rgba(0,0,0,0.25);
+  filter: blur(0px);
+  backdrop-filter: blur(4px);
+}
+
+a{
+  text-decoration-line: none !important;
+  color: var(--c-light) !important;
+}
+
+.navico :hover{
+  color: #124ac4 !important;
+
+}
+
+.nav-link :hover{
+  color: #124ac4 !important;
+}
+
+
+/*.............................
+About Page
+...............................*/
+
+.p-about-title{
+  color: #f5f1f1;
+  font-family:var(--font-title);
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.p-about-txt{
+  color: #f5f1f1;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.p-about-txt2{
+  color: #f5f1f1;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/*.............................
+Primary Button
+...............................*/
+
+.btn{
+  color: #f5f1f1;
+  border-width: 1px !important;
+  border-color: #f5f1f1 !important;
+  border-radius: 0px !important;
+  padding-bottom: 15px !important;
+  padding-right: 50px !important;
+  padding-left: 50px !important;
+  padding-top: 15px !important;
+}
+
+.btn:hover>a{
+  color:var(--c-bg) !important; 
+}
+
+.btn:hover{
+  background-color: var(--c-light) !important;
+}
